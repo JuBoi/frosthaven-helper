@@ -1,6 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
+import lootJson from './data/loot.json';
 import './App.css';
+
+
+import Button from '@mui/material/Button';
 
 function App() {
   return (
@@ -18,9 +22,16 @@ function App() {
         >
           Learn React
         </a>
+
+              <Button variant="contained">{test()}</Button>
       </header>
     </div>
   );
+}
+
+function test() : number {
+    const deck = lootJson['deck'];
+    return deck['money_1']['startId']
 }
 
 export default App;

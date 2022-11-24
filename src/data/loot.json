@@ -1,0 +1,237 @@
+{
+  "deck": {
+    "money_1": {
+      "startId": 1361,
+      "endId": 1372
+    },
+    "money_2": {
+      "startId": 1373,
+      "endId": 1378
+    },
+    "money_3": {
+      "startId": 1379,
+      "endId": 1380
+    },
+    "arrowvine": {
+      "startId": 1381,
+      "endId": 1382
+    },
+    "axenut": {
+      "startId": 1383,
+      "endId": 1384
+    },
+    "corpsecap": {
+      "startId": 1385,
+      "endId": 1386
+    },
+    "flamefruit": {
+      "startId": 1387,
+      "endId": 1388
+    },
+    "rockroot": {
+      "startId": 1389,
+      "endId": 1390
+    },
+    "snowthistle": {
+      "startId": 1391,
+      "endId": 1392
+    },
+    "hide_1": {
+      "startId": 1393,
+      "endId": 1395
+    },
+    "hide_2": {
+      "startId": 1396,
+      "endId": 1398
+    },
+    "hide_3": {
+      "startId": 1399,
+      "endId": 1400
+    },
+    "lumber_1": {
+      "startId": 1401,
+      "endId": 1403
+    },
+    "lumber_2": {
+      "startId": 1404,
+      "endId": 1406
+    },
+    "lumber_3": {
+      "startId": 1407,
+      "endId": 1408
+    },
+    "metal_1": {
+      "startId": 1409,
+      "endId": 1411
+    },
+    "metal_2": {
+      "startId": 1412,
+      "endId": 1414
+    },
+    "metal_3": {
+      "startId": 1415,
+      "endId": 1416
+    },
+    "random_item": {
+      "startId": 1417,
+      "endId": 1417
+    }
+  },
+  "loot_types": [
+    {
+      "type": "money_1",
+      "quantityPerPlayer": {
+        "2": 1,
+        "3": 1,
+        "4": 1
+      }
+    },
+    {
+      "type": "money_2",
+      "quantityPerPlayer": {
+        "2": 2,
+        "3": 2,
+        "4": 2
+      }
+    },
+    {
+      "type": "money_3",
+      "quantityPerPlayer": {
+        "2": 3,
+        "3": 3,
+        "4": 3
+      }
+    },
+    {
+      "type": "arrowvine",
+      "quantityPerPlayer": {
+        "2": 1,
+        "3": 1,
+        "4": 1
+      }
+    },
+    {
+      "type": "axenut",
+      "quantityPerPlayer": {
+        "2": 1,
+        "3": 1,
+        "4": 1
+      }
+    },
+    {
+      "type": "corpsecap",
+      "quantityPerPlayer": {
+        "2": 1,
+        "3": 1,
+        "4": 1
+      }
+    },
+    {
+      "type": "flamefruit",
+      "quantityPerPlayer": {
+        "2": 1,
+        "3": 1,
+        "4": 1
+      }
+    },
+    {
+      "type": "rockroot",
+      "quantityPerPlayer": {
+        "2": 1,
+        "3": 1,
+        "4": 1
+      }
+    },
+    {
+      "type": "snowthistle",
+      "quantityPerPlayer": {
+        "2": 1,
+        "3": 1,
+        "4": 1
+      }
+    },
+    {
+      "type": "hide_1",
+      "quantityPerPlayer": {
+        "2": 2,
+        "3": 2,
+        "4": 1
+      }
+    },
+    {
+      "type": "hide_2",
+      "quantityPerPlayer": {
+        "2": 2,
+        "3": 1,
+        "4": 1
+      }
+    },
+    {
+      "type": "hide_3",
+      "quantityPerPlayer": {
+        "2": 1,
+        "3": 1,
+        "4": 1
+      }
+    },
+    {
+      "type": "lumber_1",
+      "quantityPerPlayer": {
+        "2": 2,
+        "3": 2,
+        "4": 1
+      }
+    },
+    {
+      "type": "lumber_2",
+      "quantityPerPlayer": {
+        "2": 2,
+        "3": 1,
+        "4": 1
+      }
+    },
+    {
+      "type": "lumber_3",
+      "quantityPerPlayer": {
+        "2": 1,
+        "3": 1,
+        "4": 1
+      }
+    },
+    {
+      "type": "metal_1",
+      "quantityPerPlayer": {
+        "2": 2,
+        "3": 2,
+        "4": 1
+      }
+    },
+    {
+      "type": "metal_2",
+      "quantityPerPlayer": {
+        "2": 2,
+        "3": 1,
+        "4": 1
+      }
+    },
+    {
+      "type": "metal_3",
+      "quantityPerPlayer": {
+        "2": 1,
+        "3": 1,
+        "4": 1
+      }
+    },
+    {
+      "type": "random_item",
+      "quantityPerPlayer": {
+        "2": 1,
+        "3": 1,
+        "4": 1
+      }
+    }
+  ],
+  "enhancements": [
+
+  ]
+}
