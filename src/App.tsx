@@ -3,8 +3,7 @@ import logo from './logo.svg';
 import lootJson from './data/loot.json';
 import './App.css';
 
-
-import Button from '@mui/material/Button';
+import TextField from '@mui/material/TextField';
 
 function App() {
   return (
@@ -23,7 +22,14 @@ function App() {
           Learn React
         </a>
 
-              <Button variant="contained">{test()}</Button>
+        <TextField
+            id="outlined-number"
+            label="Number"
+            type="number"
+            InputLabelProps={{
+                shrink: true,
+            }}
+        />
       </header>
     </div>
   );
