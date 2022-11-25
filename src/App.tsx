@@ -53,7 +53,7 @@ export const App = () => {
             let cardType: string = cardMap[card];
             let quantity: number = lootQuantityMap[cardType][lootState.deck.characters];
 
-            console.log('TYPE: ' + cardType + ' ' + 'Quantity: ' + quantity)
+            console.log('TYPE: ' + cardType + ' Quantity: ' + quantity)
             setLoot('+' + quantity + ' ' + cardType);
             setOpen(true);
         }

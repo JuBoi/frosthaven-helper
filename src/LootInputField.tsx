@@ -2,10 +2,9 @@ import React, { ReactElement} from 'react';
 
 import TextField from '@mui/material/TextField';
 import InputAdornment from '@mui/material/InputAdornment';
-import { useDispatch, useSelector } from 'react-redux';
+import { useSelector } from 'react-redux';
 
 import { AppState } from './states/App.state';
-import { SvgIcon } from '@mui/material';
 
 type LootInputProps = {
     id: string
@@ -14,10 +13,6 @@ type LootInputProps = {
 
 export const LootInputField = ({ id, icon }: LootInputProps) => {
     const lootState = useSelector((state: AppState) => state.loot);
-
-    const getLootStateValue = (id: string) => {
-        
-    }
 
     const onChangeHandler = (event: React.ChangeEvent<HTMLInputElement>) => {
         let value = event.target.value;

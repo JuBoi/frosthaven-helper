@@ -7,7 +7,7 @@ import Icon from '@mui/material/Icon';
 const ArrowvineIcon = () => {
   return (
     <Icon>
-        <img src={Svgs.Arrowvine} height={24} width={24} />
+        <img src={Svgs.Arrowvine} height={24} width={24} alt='arrowvine'/>
     </Icon>
   );
 }
@@ -15,7 +15,7 @@ const ArrowvineIcon = () => {
 const AxenutIcon = () => {
   return (
     <Icon>
-        <img src={Svgs.Axenut} height={24} width={24} />
+        <img src={Svgs.Axenut} height={24} width={24} alt='axenut'/>
     </Icon>
   );
 }
@@ -23,7 +23,7 @@ const AxenutIcon = () => {
 const CorpsecapIcon = () => {
   return (
     <Icon>
-        <img src={Svgs.Corpsecap} height={24} width={24} />
+        <img src={Svgs.Corpsecap} height={24} width={24} alt='corpsecap'/>
     </Icon>
   );
 }
@@ -31,7 +31,7 @@ const CorpsecapIcon = () => {
 const FlamefruitIcon = () => {
   return (
     <Icon>
-        <img src={Svgs.Flamefruit} height={24} width={24} />
+        <img src={Svgs.Flamefruit} height={24} width={24} alt='flamefruit'/>
     </Icon>
   );
 }
@@ -39,7 +39,7 @@ const FlamefruitIcon = () => {
 const HideIcon = () => {
   return (
     <Icon>
-        <img src={Svgs.Hide} height={24} width={24} />
+        <img src={Svgs.Hide} height={24} width={24} alt='hide'/>
     </Icon>
   );
 }
@@ -47,7 +47,7 @@ const HideIcon = () => {
 const LumberIcon = () => {
   return (
     <Icon>
-        <img src={Svgs.Lumber} height={24} width={24} />
+        <img src={Svgs.Lumber} height={24} width={24} alt='lumber'/>
     </Icon>
   );
 }
@@ -55,7 +55,7 @@ const LumberIcon = () => {
 const MetalIcon = () => {
   return (
     <Icon>
-        <img src={Svgs.Metal} height={24} width={24} />
+        <img src={Svgs.Metal} height={24} width={24} alt='metal'/>
     </Icon>
   );
 }
@@ -63,7 +63,7 @@ const MetalIcon = () => {
 const MoneyIcon = () => {
   return (
     <Icon>
-        <img src={Svgs.Money} height={24} width={24} />
+        <img src={Svgs.Money} height={24} width={24} alt='money'/>
     </Icon>
   );
 }
@@ -71,7 +71,7 @@ const MoneyIcon = () => {
 const RandomIcon = () => {
   return (
     <Icon>
-        <img src={Svgs.Random} height={24} width={24} />
+        <img src={Svgs.Random} height={24} width={24} alt='random'/>
     </Icon>
   );
 }
@@ -79,7 +79,7 @@ const RandomIcon = () => {
 const RockrootIcon = () => {
   return (
     <Icon>
-        <img src={Svgs.Rockroot} height={24} width={24} />
+        <img src={Svgs.Rockroot} height={24} width={24} alt='rockroot'/>
     </Icon>
   );
 }
@@ -87,7 +87,7 @@ const RockrootIcon = () => {
 const SnowthistleIcon = () => {
   return (
     <Icon>
-        <img src={Svgs.Snowthistle} height={24} width={24} />
+        <img src={Svgs.Snowthistle} height={24} width={24} alt='snowthistle'/>
     </Icon>
   );
 }
