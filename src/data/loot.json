@@ -1,80 +1,61 @@
 {
   "deck": {
     "money_1": {
-      "startId": 1361,
-      "endId": 1372
+      "ids":[ 1361, 1362, 1363, 1364, 1365, 1366, 1367, 1368, 1369, 1370, 1371, 1372 ]
     },
     "money_2": {
-      "startId": 1373,
-      "endId": 1378
+      "ids": [ 1373, 1374, 1375, 1376, 1377, 1378 ]
     },
     "money_3": {
-      "startId": 1379,
-      "endId": 1380
+      "ids" : [ 1379, 1380 ]
     },
     "arrowvine": {
-      "startId": 1381,
-      "endId": 1382
+      "ids" : [ 1381, 1382 ]
     },
     "axenut": {
-      "startId": 1383,
-      "endId": 1384
+      "ids" : [ 1383, 1384 ]
     },
     "corpsecap": {
-      "startId": 1385,
-      "endId": 1386
+      "ids" : [ 1385, 1386 ]
     },
     "flamefruit": {
-      "startId": 1387,
-      "endId": 1388
+      "ids" : [ 1387, 1388 ]
     },
     "rockroot": {
-      "startId": 1389,
-      "endId": 1390
+      "ids" : [ 1389, 1390 ]
     },
     "snowthistle": {
-      "startId": 1391,
-      "endId": 1392
+      "ids" : [ 1391, 1392 ]
     },
     "hide_1": {
-      "startId": 1393,
-      "endId": 1395
+      "ids" : [ 1393, 1394, 1395 ]
     },
     "hide_2": {
-      "startId": 1396,
-      "endId": 1398
+      "ids" : [ 1396, 1397, 1398 ]
     },
     "hide_3": {
-      "startId": 1399,
-      "endId": 1400
+      "ids" : [ 1399, 1400 ]
     },
     "lumber_1": {
-      "startId": 1401,
-      "endId": 1403
+      "ids" : [ 1401, 1402, 1403 ]
     },
     "lumber_2": {
-      "startId": 1404,
-      "endId": 1406
+      "ids" : [ 1404, 1405, 1406 ]
     },
     "lumber_3": {
-      "startId": 1407,
-      "endId": 1408
+      "ids" : [ 1407, 1408 ]
     },
     "metal_1": {
-      "startId": 1409,
-      "endId": 1411
+      "ids" : [ 1409, 1410, 1411 ]
     },
     "metal_2": {
-      "startId": 1412,
-      "endId": 1414
+      "ids" : [ 1412, 1413, 1414 ]
     },
     "metal_3": {
-      "startId": 1415,
-      "endId": 1416
+      "ids" : [ 1415, 1416 ]
     },
     "random_item": {
-      "startId": 1417,
-      "endId": 1417
+      "ids" : [ 1417 ]
     }
   },
   "loot_types": [
