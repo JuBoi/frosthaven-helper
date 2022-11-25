@@ -29,6 +29,10 @@ export const App = () => {
         p: 4,
     };
 
+    const shuffleButtonStyle = {
+        margin: '10px 10px 0px 10px'
+    };
+
     const lootState = useSelector((state: AppState) => state.loot);
 
     const [open, setOpen] = React.useState(false);
@@ -74,25 +78,29 @@ export const App = () => {
                 </Box>
             </Modal>
 
-            <p> $$ </p>
-            <LootInputField id='money' icon={<MoneyIcon />}/>
-            <LootInputField id='random' icon={<RandomIcon />}/>
-            <p> Material </p>
-            <LootInputField id='lumber' icon={<LumberIcon />}/>
-            <LootInputField id='metal' icon={<MetalIcon />}/>
-            <LootInputField id='hide' icon={<HideIcon />}/>
-            <p> Herbs </p>
-            <LootInputField id='arrowvine' icon={<ArrowvineIcon />}/>
-            <LootInputField id='axenut' icon={<AxenutIcon />}/>
-            <LootInputField id='corpsecap' icon={<CorpsecapIcon />}/>
-            <LootInputField id='flamefruit' icon={<FlamefruitIcon />}/>
-            <LootInputField id='rockroot' icon={<RockrootIcon />}/>
-            <LootInputField id='snowthistle' icon={<SnowthistleIcon />}/>
-            <p> Characters </p>
-            <LootInputField id='characters' icon={<AccountCircle />}/>
-            <Button 
-                variant="contained" className="Shuffle-button"
-                onClick={OnClickShuffle}>Shuffle</Button>
+            <div className="Loot-select" >
+                <p> $$ </p>
+                <LootInputField id='money' icon={<MoneyIcon />}/>
+                <LootInputField id='random' icon={<RandomIcon />}/>
+                <p> Material </p>
+                <LootInputField id='lumber' icon={<LumberIcon />}/>
+                <LootInputField id='metal' icon={<MetalIcon />}/>
+                <LootInputField id='hide' icon={<HideIcon />}/>
+                <p> Herbs </p>
+                <LootInputField id='arrowvine' icon={<ArrowvineIcon />}/>
+                <LootInputField id='axenut' icon={<AxenutIcon />}/>
+                <LootInputField id='corpsecap' icon={<CorpsecapIcon />}/>
+                <LootInputField id='flamefruit' icon={<FlamefruitIcon />}/>
+                <LootInputField id='rockroot' icon={<RockrootIcon />}/>
+                <LootInputField id='snowthistle' icon={<SnowthistleIcon />}/>
+                <p> Characters </p>
+                <LootInputField id='characters' icon={<AccountCircle />} />
+
+                <Button
+                    variant="contained"
+                    sx={shuffleButtonStyle}
+                    onClick={OnClickShuffle}>Shuffle</Button>
+            </div>
             <Button
                 variant="contained" className="Shuffle-button"
                 onClick={OnClickDraw}>Draw</Button>
