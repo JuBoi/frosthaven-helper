@@ -69,10 +69,11 @@ export const App = () => {
                 aria-describedby="modal-modal-description"
             >
                 <Box sx={style}>
-                    <Typography id="modal-modal-title" variant="h6" component="h2">
+                        <Typography id="modal-modal-title" variant="h6" component="h2"
+                            sx={{ textAlign: 'center' }} >
                         CHA-CHING
                     </Typography>
-                    <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+                    <Typography id="modal-modal-description" sx={{ mt: 2, textAlign: 'center' }}>
                             {loot}
                     </Typography>
                 </Box>
